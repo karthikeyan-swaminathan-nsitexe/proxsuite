@@ -10,7 +10,7 @@
 #include <proxsuite/linalg/veg/memory/dynamic_stack.hpp>
 
 #if !(defined(__aarch64__) || defined(__PPC64__) || defined(__ppc64__) ||      \
-      defined(_ARCH_PPC64))
+      defined(_ARCH_PPC64) || defined(__riscv))
 #include <immintrin.h>
 #endif
 
